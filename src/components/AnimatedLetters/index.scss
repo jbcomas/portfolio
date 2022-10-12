@@ -1,0 +1,16 @@
+.text-animate{
+    display: inline-block;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+    .text-animate-hover{
+        min-width: 10px;
+        display: inline-block;
+    }
+}
+
+@for $i from 1 through 41 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i / 15}s;
+    }
+}
