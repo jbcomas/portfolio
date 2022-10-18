@@ -1,19 +1,17 @@
 $primary-color: #ffd700;
 
-
 @import 'animate.css';
 
-
 @font-face {
-  font-family:'AreaKilometer' ;
-  src: url("./assets/fonts/aAreaKilometer50.ttf") format('ttf');
+  font-family: 'AreaKilometer';
+  src: url('./assets/fonts/aAreaKilometer50.ttf') format('ttf');
 }
 @font-face {
-  font-family:'Comicate' ;
-  src: url("./assets/fonts/COMICATE.TTF") format('ttf');
+  font-family: 'Comicate';
+  src: url('./assets/fonts/COMICATE.TTF') format('ttf');
 }
 
 input,
 textarea {
-  font-family: "AreaKilometer";
+  font-family: 'AreaKilometer';
 }
